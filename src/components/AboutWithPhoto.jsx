@@ -5,7 +5,6 @@ import profilePhoto from '../assets/profile.jpg';
 const About = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    // Grouped exactly as recommended for an AI/CSE student
     const skillCategories = [
         {
             title: "Languages",
